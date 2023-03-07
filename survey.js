@@ -1,6 +1,6 @@
 import inquirer from "inquirer";
-console.log("Welcome to the survey!");
 
+console.log("Welcome to the survey!");
 const questions = [
   {
     type: "input",
@@ -90,6 +90,6 @@ const questions = [
 
 // run your command
 inquirer.prompt(questions).then((answers) => {
-  console.log('Thank you for answering the questions!');
-  console.log('Your answers:', answers);
+  console.log("Thank you for answering the questions!");
+  console.log("Your answers:", answers);
 });
