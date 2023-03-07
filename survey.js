@@ -1,4 +1,5 @@
 import inquirer from "inquirer";
+console.log("Welcome to the survey!");
 
 const questions = [
   {
@@ -88,15 +89,7 @@ const questions = [
 ];
 
 // run your command
-inquirer
-  .prompt(questions)
-  .then((answers) => {
-    console.log(JSON.stringify(answers, null, 2));
-  })
-  .catch((error) => {
-    if (error.isTtyError) {
-      console.log("Your console environment is not supported!");
-    } else {
-      console.log(error);
-    }
-  });
+inquirer.prompt(questions).then((answers) => {
+  console.log('Thank you for answering the questions!');
+  console.log('Your answers:', answers);
+});
