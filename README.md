@@ -1,48 +1,54 @@
-# Developer Survey CLI
+# Develepor Survey CLI
+This is my assignment for Week 7 Developer Survey CLI
+## Table of Content
+- [About the Project](#about-the-project)
+  - [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Important Scripts](#important-scripts)
+- [Author](#author)
 
-- Assignment Example for Week 7: Programming — JavaScript, Node.js, npm, TypeScript
 
-We will make Developer Survey using CLI and JavaScript
+## About the Project
 
-## Prerequisites
+This assignment is a Developer Survey CLI, which is an example project for the Week 7 of Programming course that covers JavaScript, Node.js, npm, and TypeScript. The purpose of this assignment is to create a survey using CLI and JavaScript.
 
-- Node.js
-- NPM
-  - Inquirer
-- JavaScript
-- Terminal
+### Tech Stack
 
-You can use starter code from folder starter
+I've built this project using a several combination of modern web technologies. 
 
-- What's your first name?
-  Rules
-  - Input type "input"
-  - Validate not empty
+- **Nodejs**
+- **NPM:** Inquirer
 
-- Hello (name from question 1) What's your email address?
-  Rules
-  - Input type "input"
-  - Validate not empty
+## Getting Started
 
-- Are you experienced Developer?
-  Rules
-  - Input type "list", [yes, no]
-  - Validate not empty
+To get a local copy up and running follow these simple example steps.
 
-- How many years of experience you have with JavaScript?
-  Rules
-  - Input type "list", ["0-1", "1-3", "3-5", "5-10", "10+"]
-  - Validate not empty
-  - Only show if question 3 selected "yes"
+### Prerequisites
 
-- What JavaScript library do you know?
-  Rules
-  - Input type "checkbox", ["React.js", "Vue", "Angular", "Node.js", "jQuery", "D3.js"]
-  - Validate not empty
-  - Only show if question 3 selected "yes"
+First, make sure that you have the following installed on your machine:
+- Node.js (version 16 or later)
 
-- What is your desired salary?
-  Rules
-  - Input type "number"
-  - Validate salary more than zero
-  - Only show if question 3 selected "yes"
+> I recommend you have installed `nvm` in order to set the right node version to run this project
+> ```sh
+> curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.2/install.sh | bash
+> ```
+
+### Installation
+
+1. Clone the repository to your local machine.
+1. Run `npm install` in the project directory to install the necessary dependencies.
+1. Run `npm start` to run all database migrations.
+
+
+### Important Scripts
+```sh
+git clone https://github.com/revou-fsse-1/w7-developer-survey-cli-anggr # Clone the repository
+npm install # Install all dependencies
+npm start # Start the survey
+```
+## Author
+
+-  **Okky Anggoro**
+ <a href="https://github.com/anggr" target="blank"><img align="center" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="okky-anggoro" height="30" width="100" /></a> <a href="https://linkedin.com/in/okky-anggoro" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="okky-anggoro" height="30" width="100" /></a>

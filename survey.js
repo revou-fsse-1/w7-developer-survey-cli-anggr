@@ -93,3 +93,4 @@ inquirer.prompt(questions).then((answers) => {
   console.log("Thank you for answering the questions!");
   console.log("Your answers:", answers);
 });
+
