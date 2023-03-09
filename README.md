@@ -39,7 +39,7 @@ First, make sure that you have the following installed on your machine:
 
 1. Clone the repository to your local machine.
 1. Run `npm install` in the project directory to install the necessary dependencies.
-1. Run `npm start` to run all database migrations.
+1. Run `npm start` to start the survey.
 
 
 ### Important Scripts
